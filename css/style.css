@@ -10,6 +10,13 @@ body{
     
 }
 
+.formatter-logo{
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 1.5rem;
+    color: black;
+   
+}
 
 header{
     height: 100vh;
