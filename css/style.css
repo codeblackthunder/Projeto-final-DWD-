@@ -1,0 +1,125 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+     scroll-behavior: smooth;
+    
+}
+
+
+header{
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/capa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.fundo-transparente{
+    background-color: rgba(10,23,55,0.5);
+}
+.altura-maxima{
+    height: 100%;
+}
+#precos{
+    height: 100vh;
+   
+}
+
+.hero-preco{
+    
+}
+
+
+#contato{
+   
+    margin-top: 5%;
+    padding-top: 10%;
+}
+
+#sobre-nos{
+   
+    margin-top: 5%;
+}
+
+#servicos{
+  
+    margin-top: 5%;
+}
+.item-service{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    
+    
+    
+}
+#garantia{
+     margin-top: 5%;
+}
+
+.item-garantia{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+.borda{
+    border: 5px solid gold;
+}
+.desc{
+    font-size: 1rem;
+}
+
+
+
+
+
+h2{
+    text-align: center;
+}
+
+.wrapper{
+width: 90%;
+margin: 0 auto;
+display: grid;
+/*valor mínimo para as imagens 200px e máximo 1fr*/
+grid-template-columns: repeat(auto-fit, minmax(200px;));
+grid-auto-rows: 100%;
+grid-gap: 20px;
+
+}
+
+
+
+
+/*Média query header mobile*/
+
+@media screen and (min-width: 200px) and (max-width: 700px) {
+.hero-txt{
+font-size: 2.5rem;
+    text-align: center;
+    
+}
+    .padding-center-mobile{
+       padding:10%;
+      
+    }
+    
+    .margin-top-mobile{
+           margin-top: 15%;
+    }
+}
+
+
+/*Sobre nos (largura)*/
+@media screen and (min-width: 200px) and (max-width: 700px) {
+    
+    
+}
