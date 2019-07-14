@@ -5,9 +5,19 @@
 
 }
 
-body{
+body,html{
      scroll-behavior: smooth;
     
+}
+fieldset { 
+  display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 2px solid black;
 }
 
 .formatter-logo{
@@ -35,8 +45,18 @@ header{
 }
 #precos{
     height: 100vh;
+    width: 100vw;
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/fundo madeira.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
    
 }
+.title-preco{
+    color: white;
+    margin-top: 5%;
+    
+}
+
 
 .hero-preco{
     
@@ -50,7 +70,8 @@ header{
 }
 
 #sobre-nos{
-   
+  
+
     margin-top: 5%;
 }
 
@@ -84,12 +105,30 @@ header{
     font-size: 1rem;
 }
 
-
+.sobre-nos-desc{
+     font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+}
 
 
 
 h2{
     text-align: center;
+}
+
+.preco-items{
+    width: 100
+}
+
+.list-preco{
+width: 100%;
+    list-style: none;
+    width: 100%;
+    color: white;
+    font-size: 3rem;
+}
+.txt-preco{
+     margin-left: 10%
 }
 
 .wrapper{
@@ -102,7 +141,12 @@ grid-auto-rows: 100%;
 grid-gap: 20px;
 
 }
-
+.container-precos{
+    height: 100%;
+}
+.icone-preco{
+    font-size: 4rem;
+}
 
 
 

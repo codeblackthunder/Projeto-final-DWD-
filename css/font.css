@@ -1,7 +1,12 @@
                                     /*Fonte header*/
 @import url('https://fonts.googleapis.com/css?family=Heebo:800&display=swap');
 /*=============================================================================================*/
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+/*==================================SOBRE NOS FONT===========================================================*/
+
 .hero-txt{
+    padding-top: 5%;
+    padding-left: 6%;
     font-size: 4rem;
     font-family: 'Heebo', sans-serif;
     color: white;

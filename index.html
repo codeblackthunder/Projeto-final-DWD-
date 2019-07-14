@@ -6,11 +6,9 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/font.css">
     <title>Barbeária</title>
-    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-		<link rel="stylesheet" href="vendors/css/coreNavigation-1.1.3.min.css" />
+    	
    	
-   	    <link rel="stylesheet" href="vendors/css/typography.css"/>
-		<link rel="stylesheet" href="vendors/css/custom.css" />
+   	   
     <!--Plugin galeria css-->
 <link rel="stylesheet" href="vendors/css/paralax.css">
     <!--Bootstrap css min-->
@@ -26,56 +24,64 @@
 </head>
 
 <body>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">CutClub</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
       
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#precos">Preços</a>
+      </li>
+      
+       <li class="nav-item">
+        <a class="nav-link" href="#sobre-nos">Sobre nós</a>
+      </li>
+      
+        <li class="nav-item">
+        <a class="nav-link" href="#garantia">Garantia</a>
+      </li>
+      
+       <li class="nav-item">
+        <a class="nav-link" href="#contato">Contato</a>
+      </li>
+      
+       <li class="nav-item">
+        <a class="nav-link" href="#servicos">Serviços</a>
+      </li>
+        
+         <li class="nav-item">
+        <a class="nav-link" href="#galeria">Galeria</a>
+      </li>
+      
+       <li class="nav-item">
+        <a class="nav-link" href="#testemunha">Testemunha</a>
+      </li>
+        
+        
+        
+      
+    </ul>
+    
+  </div>
+</nav>
 
     <!--header-->
     <header>
-        
-        	<nav hidden> 
-			<div class="nav-header">
-				<a href="#" class="brand formatter-logo">Cut Club</a>
-				<button class="toggle-bar"><span class="fa fa-bars"></span></button>	
-			</div>								
-			<ul class="menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#precos">Preços</a></li>
-				<li><a href="#sobre-nos">Sobre nós</a></li>
-				<li><a href="#garantia">Garantimos</a></li>
-				<li><a href="#contato">Contato</a></li>
-				<li><a href="#servicos">Serviços</a></li>
-               	<li><a href="#galeria">Galeria</a></li>
-                <li><a href="#testemunha">Testemunhas</a></li>
-                
-			</ul>
-		</nav>
+ 
+<!--        Menu de navegação FIM-->
         <div class="altura-maxima d-flex justify-content-center align-items-center">
             <p class="hero-txt">Faremos de você estiloso</p>
         </div>
-
-        <!--Menu de navegação bootstrap--> 
-<!--
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </div>
-            </div>
-        </nav>
-        Menu de navegação FIM
-        <div class="altura-maxima d-flex justify-content-center align-items-center">
-            <p class="hero-txt">Faremos de você estiloso</p>
-        </div>
-
-
-  
--->
+       
+     
      </header>
     
       <div class="parallax" id="parallax-1" data-image-src="img/parallax.jpg" data-height="400px">
@@ -88,14 +94,23 @@
       
     
     <section id="precos">
-          <div class="container-fluid bg-dark">
-             <div class="row">
-                 <div class="col-12 col-md-12 d-flex align-items-center justify-content-center">
-                     <img src="css/img/precos.png"class="img-fluid" alt="">
-                 </div>
-             </div>
-              
-          </div>
+            <h2 class="hero-txt">Preços</h2>
+           <div class="container-precos d-flex flex-row flex-wrap align-items-center justify-content-center">
+               <ul class="preco-items">
+                   
+                   <li class="list-preco"><ion-icon  name="cash"></ion-icon><span class="txt-preco">R$ 50 Cabelo</span></li>
+                   <li class="list-preco"><ion-icon name="cash"></ion-icon><span class="txt-preco">R$ 25 Barba</span></li>
+                    <li class="list-preco"><ion-icon  name="cash"></ion-icon><span class="txt-preco">R$ 65 Barba+Cabelo</span></li>
+                   
+                   
+                   
+               </ul>
+         
+
+           </div>
+             
+               
+
       </section>
     
     
@@ -110,15 +125,15 @@
     <section id="sobre-nos">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-md-6">
                     <img src="img/Atendimento.png" alt="atendimento" class="img-fluid">
                 </div>
-                <div class="col-12 col-md-4 d-flex align-items-center flex-wrap padding-center-mobile">
+                <div class="col-12 col-md-6 d-flex align-items-center flex-wrap padding-center-mobile">
 
                     <div class="sobre-nos-desc">
                         <h2>Sobre nós</h2>
-El Club Cut foi fundada em 2000,com intuito de mudar o cenário da barbearia de um lugar apenas de cortes de cabelo.
-Não somos apenas uma barbearia ,buscamos criar um grupo de amigos,que compartilhamos de vídeo game,bebida,música e muito mais.                    </div>
+<p class="sobre-nos-txt">El Club Cut foi fundada em 2000,com intuito de mudar o cenário da barbearia de um lugar apenas de cortes de cabelo.
+Não somos apenas uma barbearia ,buscamos criar um grupo de amigos,que compartilhamos de vídeo game,bebida,música e muito mais.</p>                    </div>
                 </div>
             </div>
         </div>
@@ -170,6 +185,7 @@ Contamos com uma equipe de segurança para garantir a tranquilidade de nosso cli
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-md-6 margin-top-mobile ">
+                   <h2>Onde estamos</h2>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27615.329533765467!2d-51.08320120728289!3d-30.0965864784789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199e988f836b25%3A0x112c46b8087832ea!2sBarbearia+Ditonne!5e0!3m2!1spt-BR!2sbr!4v1562624946024!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
@@ -179,6 +195,7 @@ Contamos com uma equipe de segurança para garantir a tranquilidade de nosso cli
                 <div class="col-12 col-md-6 margin-top-mobile">
                     <h2>Agendamento</h2>
                     <form>
+                        <fieldset> 
                         <div class="form-group row">
                             <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
                             <div class="col-sm-10">
@@ -222,6 +239,7 @@ Contamos com uma equipe de segurança para garantir a tranquilidade de nosso cli
                             </div>
 
                         </div>
+                        </fieldset>
                     </form>
                 </div>
             </div>
@@ -469,13 +487,6 @@ Temos uma banda exclusiva que toca de tudo para agradar todos os gostos
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="vendors/js/paralax.js"></script>   
-    	<script src="vendors/js/coreNavigation-1.1.3.min.js"></script>
-		<script>
-			$('nav').coreNavigation({
-				menuPosition: "right", 
-				container: true,
-                mode:"sticky",
-			});
-		</script>
+    	
 </body>
 </html>
